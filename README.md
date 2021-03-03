@@ -11,3 +11,5 @@ Making Little Changes now
 ## Local development 
 
 1. Open index.html in your browser 
+
+have fun 
