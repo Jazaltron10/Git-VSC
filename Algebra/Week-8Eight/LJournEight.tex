@@ -1,0 +1,121 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+% \usepackage{gensymb}
+\title{Learning Journal Unit 8\\
+Math 1201 - College Algebra.
+}
+\author{Jasper Albert Nri}
+\date{October 2021}
+
+
+\begin{document}
+
+\maketitle
+
+\section*{QUESTION 1}
+Evaluate the cube root of ${z = 27 \text{cis}(240^{\circ})}$\\
+Then raise them to the cube(i.e the roots)\\
+\title\textbf{Solution}\\
+$${z = 27 \text{cis}(240^{\circ})}$$
+Using the nth root theorem,
+$${z^{\frac{1}{n}} = r^{\frac{1}{n}}\left[\cos\left(\frac{\theta}{n}+\frac{2k\pi}{n}\right)  +  i\sin\left(\frac{\theta}{n}+\frac{2k\pi}{n}\right)\right]}$$
+Finding the cube roots of z
+$${z^{\frac{1}{3}} = 27^{\frac{1}{3}}\left[\cos\left(\frac{240}{3}+\frac{2k\pi}{3}\right)  +  i\sin\left(\frac{240}{3}+\frac{2k\pi}{3}\right)\right]}$$
+k = 0, 1, 2.
+\\When k = 0
+$${z^{\frac{1}{3}} = 27^{\frac{1}{3}}\left[\cos\left(\frac{240}{3}+\frac{2(0)\pi}{3}\right)  +  i\sin\left(\frac{240}{3}+\frac{2(0)\pi}{3}\right)\right]}$$
+$${z^{\frac{1}{3}} = 3\left[\cos\left(80\right)  +  i\sin\left(80\right)\right]}$$
+
+Therefore,
+$${z^{\frac{1}{3}} = 3cis(80)}$$
+When k = 1
+$${z^{\frac{1}{3}} = 27^{\frac{1}{3}}\left[\cos\left(\frac{240}{3}+\frac{2(1)\pi}{3}\right)  +  i\sin\left(\frac{240}{3}+\frac{2(1)\pi}{3}\right)\right]}$$
+$${z^{\frac{1}{3}} = 3\left[\cos\left(80 + 120\right)  +  i\sin\left(80 + 120\right)\right]}$$
+$${z^{\frac{1}{3}} = 3\left[\cos\left(200\right)  +  i\sin\left(200\right)\right]}$$
+
+Therefore,
+$${z^{\frac{1}{3}} = 3cis(200)}$$
+When k = 2
+$${z^{\frac{1}{3}} = 27^{\frac{1}{3}}\left[\cos\left(\frac{240}{3}+\frac{2(2)\pi}{3}\right)  +  i\sin\left(\frac{240}{3}+\frac{2(2)\pi}{3}\right)\right]}$$
+$${z^{\frac{1}{3}} = 3\left[\cos\left(80 + 240\right)  +  i\sin\left(80 + 240\right)\right]}$$
+$${z^{\frac{1}{3}} = 3\left[\cos\left(320\right)  +  i\sin\left(320\right)\right]}$$
+
+Therefore,
+$${z^{\frac{1}{3}} = 3cis(320)}$$
+The 3 roots of the equation are given as ${3cis(80)}$, ${3cis(200)}$, and ${3cis(320)}$\\
+\\\textbf{From the question we are required to raise the roots to the cube}\\
+Raising the roots of the equation to the cube using De Moivre's formula,
+$${z^n = r^n(\cos(n\theta) + i\sin(n\theta))}$$
+Cubing First root
+$${3cis(80)}$$ 
+$${Root_{1} = 3^3(\cos(80\times3)+i\sin(80\times3))}$$ 
+$${Root_{1} = 27(\cos(240)+i\sin(240))}$$ 
+$${Root_{1} = 27cis(240) \text{ or } Root_{1} = 27cis\left(\frac{4\pi}{3}\right)}$$ 
+Cubing Second root
+$${3cis(200)}$$
+$${Root_{2} = 3^3(\cos(200\times3)+i\sin(200\times3))}$$ 
+$${Root_{2} = 27(\cos(600)+i\sin(600))}$$ 
+$${Root_{2} = 27cis(600) \text{ or } Root_{2} = 27cis\left(\frac{10\pi}{3}\right)}$$ 
+Cubing Third root
+$${3cis(320)}$$
+$${Root_{3} = 3^3(\cos(320\times3)+i\sin(320\times3))}$$ 
+$${Root_{3} = 27(\cos(960)+i\sin(960))}$$ 
+$${Root_{3} = 27cis(960) \text{ or } Root_{3} = 27cis\left(\frac{16\pi}{3}\right)}$$ 
+
+
+
+
+\section*{QUESTION 2}
+Evaluate $${\left[\sqrt[3]{3}\left(\frac{\sqrt{3}}{2}+\frac{i}{2}\right)\right]^{10}}$$
+\title\textbf{Solution}\\
+To solve this equation i will be making use of the De Moivre's theorem formula.
+$${z^n = r^n(\cos(n\theta) + i\sin(n\theta))}$$
+But we must find the value of $\theta$ first.
+Rearranging the given equation in De Moivre's formula we have 
+$${z^{10} = (\sqrt[5]{3})^{10}\left(\frac{\sqrt{3}}{2}+\frac{i}{2}\right)}$$
+If we compare it to the original equation, we can see that $\cos(\theta) = \frac{\sqrt{3}}{2}$ and ${\sin(\theta) = \frac{1}{2}}$
+Solving for theta we get,
+$$\cos(\theta) = \frac{\sqrt{3}}{2}$$
+$$\theta = cos^{-1}\left(\frac{\sqrt{3}}{2}\right)$$
+$$\theta = \frac{\pi}{6}$$
+Also For sine we have, 
+$$\sin(\theta) = \frac{{1}}{2}$$
+$$\theta = sin^{-1}\left(\frac{{1}}{2}\right)$$
+$$\theta = \frac{\pi}{6}$$
+Rewriting De Moivre's formula with the value of $\theta$, we have,
+$${z^{10} = (\sqrt[5]{3})^{10}\left(\cos\left(\frac{{\pi}}{6} \times  10\right)+i\sin\left(\frac{{\pi}}{6}\times 10\right)\right)}$$
+Evaluating,
+$${z^{10} = {3}^{\frac{10}{5}}\left(\cos\left(\frac{{5\pi}}{3}\right)+i\sin\left(\frac{{5\pi}}{3}\right)\right)}$$
+$${z^{10} = {3}^{2}\left(\left(\frac{{1}}{2}\right)+\left(-i\frac{{\sqrt{3}}}{2}\right)\right)}$$
+$${z^{10} = 9\left(\frac{{1}}{2}-i\frac{{\sqrt{3}}}{2}\right)}$$
+Therefore, the final answer is 
+$${z^{10} = 9\left(\frac{{1}}{2}-i\frac{{\sqrt{3}}}{2}\right)}$$
+
+
+
+
+
+
+\section*{QUESTION 3}
+Find ${\frac{z_{1}}{z_{2}}}$ in polar form:\\
+$z_{1} = 21\text{cis}(135^{\circ})$  $z_{2} = 3\text{cis}(75^{\circ})$\\
+\title\textbf{Solution}\\
+Using the formula
+$${\frac{z_{1}}{z_{2}} = \frac{r_{1}}{r_{2}}(\cos(\theta_{1}-\theta_{2})+i\sin(\theta_{1}-\theta_{2}))}$$
+Substituting
+$${\frac{z_{1}}{z_{2}} = \frac{21}{3}(\cos(135-75)+i\sin(135-75))}$$
+$${\frac{z_{1}}{z_{2}} = 7(\cos(60)+i\sin(60))}$$
+$${\frac{z_{1}}{z_{2}} = 7\left(\frac{1}{2}+i\frac{\sqrt{3}}{2}\right)}$$
+Therefore,
+$${\frac{z_{1}}{z_{2}} = \frac{7}{2}+i\frac{7\sqrt{3}}{2}}$$
+
+
+
+
+\section*{References}
+Abramson, J. (2017). \textit{Algebra and trigonometry}. OpenStax, TX: Rice University. Retrieved
+from https://openstax.org/details/books/algebra-and-trigonometry
+\end{document}
